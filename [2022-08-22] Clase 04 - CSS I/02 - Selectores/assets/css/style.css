@@ -1,0 +1,64 @@
+/*
+    comentario en css
+*/
+
+p{
+    background: black;
+    color: white;
+}
+
+#unique-p{
+    color: yellow;
+}
+
+.common-p{
+    padding: 8px;
+
+    color: cornflowerblue;
+}
+
+.common-p2{
+    color: blueviolet;
+}
+
+p::first-letter{
+    font-size: 1.2rem;
+}
+
+hr{
+    margin-block: 8px;
+}
+
+input{
+    display: block;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+button{
+    padding: 8px 16px;    
+}
+
+button:hover{
+    background: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+input:focus{
+    background: grey;
+}
+
+button::before{
+    content: 'B--->';
+}
+
+button::after{
+    content: '<---A'
+}
+
+li::marker{
+    content: '>';    
+}
