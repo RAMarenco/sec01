@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flexbox </title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <!-- Flexbox simple -->
+        <h3>
+            Flexbox simple
+        </h3>
+        <div id="flex-ex-01">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+        </div>  
+    </section>
+
+    <section>
+        <!-- Direcciones -->
+        <h3>
+            Dirección de elementos (MA)
+        </h3>
+        <div class="flex" id="row">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+        </div>
+
+        <div class="flex" id="row-reverse">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+        </div>
+
+        <div class="flex" id="column">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+        </div>
+
+        <div class="flex" id="column-reverse">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+        </div>
+    </section>
+
+    <section id="flex-ex-03">
+        <h3>
+            Colapso de línea (CA)
+        </h3>
+        
+        <div class="flex" id="nowrap">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+
+        <div class="flex" id="wrap">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+
+        <div class="flex" id="wrap-reverse">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+
+        <div class="flex" id="col-wrap-reverse">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+    </section>
+
+    <section id="flex-ex-04">
+        <!-- Distribución -->
+        <h3>
+            Distribución
+        </h3>
+
+        <div class="flex" id="justify">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+
+        <div class="flex" id="items">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>            
+        </div>
+        
+        <div class="flex" id="content">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+        </div>
+    </section>
+
+    <section id="flex-ex-05">
+        <!-- Flex  -->
+        <h3>
+            Tamaños automaticos (flex)
+        </h3>
+
+        <div class="flex" id="sizes">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+        </div>
+    </section>
+
+    <!-- Ejemplos de uso -->
+    <section class="flex" id="center">
+        <h1>
+            Super titulo
+        </h1>
+    </section>
+
+    <section id="cards">
+        <article>
+            <h3> Artículo 01</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores neque provident iste explicabo nemo esse asperiores dolorem ratione. Nesciunt iste optio reprehenderit consectetur veritatis illum nulla eveniet culpa itaque error. Ipsam ex repellendus provident dignissimos ipsum, quas impedit, consequatur fugiat totam ullam ut sequi similique deserunt nemo? Dignissimos, sequi ipsa nemo illo dolorum perferendis. Corrupti magni totam quisquam quia illo impedit ratione deleniti in alias, error voluptates perspiciatis, sed natus? Aperiam officia eum recusandae ea voluptate mollitia perferendis reiciendis. Doloremque sed rerum, architecto modi expedita sunt nisi accusantium possimus officiis aut corporis quae! Illo porro ut ratione nam harum!</p>
+        </article>
+        <article>
+            <h3> Artículo 02</h3>
+            <p>Iure reprehenderit id ea ullam, eos quidem itaque odit, tempore corporis maxime nulla quis adipisci deserunt asperiores? Quisquam iure placeat vitae ratione quas accusantium facilis qui eum ex enim rerum aperiam velit adipisci ullam, amet quam dicta magnam architecto! Ullam placeat maiores fuga non quaerat ut deleniti qui, libero ad laudantium veniam beatae sed voluptate eaque debitis, quibusdam magnam tenetur et est ipsa consequuntur! Quam debitis beatae illo maxime itaque esse sed optio, excepturi possimus ullam iste voluptas impedit. Eos aspernatur repudiandae natus nulla placeat dolore eligendi maxime distinctio ipsum minus enim, qui corporis corrupti illum necessitatibus accusantium voluptates temporibus.</p>
+        </article>
+        <article>
+            <h3> Artículo 03</h3>
+            <p>Exercitationem optio dolorum quasi. A pariatur obcaecati vero culpa neque dolorem ipsum, recusandae, perferendis asperiores tenetur impedit quasi consequuntur adipisci odit? Consequuntur qui doloremque, laborum mollitia fugit exercitationem iusto dicta ipsa voluptatem itaque quasi molestias corrupti. Eos illum dolor eligendi id et aperiam, voluptate dicta. Modi, recusandae eligendi deserunt beatae, quo aperiam dolores distinctio veritatis ullam quibusdam inventore odit, nulla aspernatur ipsum accusantium commodi repudiandae omnis! Laboriosam, porro consectetur sit ullam placeat ipsa rem perspiciatis pariatur aliquam dignissimos accusamus reprehenderit explicabo tempore veniam numquam accusantium maiores. Ipsum, ipsa. Eveniet laboriosam neque optio amet et labore accusamus commodi. Sint, distinctio placeat!</p>
+        </article>
+        <article>
+            <h3> Artículo 04</h3>
+            <p>Fugiat, voluptatem veritatis illum, maxime earum corporis expedita similique consectetur explicabo deserunt iste ad, nulla rem nemo praesentium mollitia recusandae? Nemo eligendi est optio ducimus sed ullam esse possimus impedit nesciunt! Dolor, soluta accusantium. Iste, ullam assumenda nihil iusto facilis vel cum nesciunt. Tenetur asperiores, vero laboriosam quasi labore quam? Illo nam nesciunt laborum impedit, quod asperiores voluptates exercitationem consequuntur pariatur voluptas consequatur assumenda est ab possimus quam, autem numquam commodi enim accusamus quis cum tenetur natus minima nobis? Nisi obcaecati laboriosam labore atque repudiandae quaerat, ea totam molestias! Fugiat, illum reprehenderit. Rem enim sequi odit accusantium, eaque error optio.</p>
+        </article>
+        <article>
+            <h3> Artículo 05</h3>
+            <p>Animi, a eos numquam tenetur asperiores minus nemo nostrum adipisci ex veritatis deleniti, dolores quae quaerat corporis consectetur id facilis itaque culpa eum laborum ab eveniet maxime autem eligendi. Itaque praesentium architecto deleniti temporibus. Eveniet hic possimus molestiae odio cumque cum sed eos inventore consequatur aliquam assumenda soluta ab omnis rem deserunt quaerat voluptatum repellendus dolorum iusto, adipisci fugit a veritatis! Similique sequi, atque ipsum perspiciatis iure iste incidunt iusto asperiores cupiditate laborum? Expedita fuga beatae eius. Illo praesentium perspiciatis quam fuga atque, vel repellat autem ratione, numquam exercitationem dignissimos unde laboriosam nemo nesciunt! Non quidem debitis voluptatum et in!</p>
+        </article>
+        <article>
+            <h3> Artículo 06</h3>
+            <p>Itaque consequuntur delectus, ut architecto sint nostrum sed neque. Id totam esse magni dolor commodi reiciendis aspernatur. Eius, quos quasi repellat architecto inventore debitis distinctio atque aperiam quo eaque. Perspiciatis inventore animi exercitationem porro pariatur aliquid ad rerum consectetur amet! Impedit vel maxime voluptatum facilis dolorum! Numquam magni similique praesentium neque, vero sint nesciunt dolorem dignissimos, quis laudantium voluptate illum doloremque voluptas libero sapiente? Dolore excepturi veniam repudiandae earum perferendis eligendi deleniti asperiores, fuga voluptas quia non quisquam adipisci fugiat eveniet ipsum sit ab in incidunt magnam dignissimos hic soluta ratione ipsam debitis! A voluptatibus dicta officia. Autem, modi aliquid.</p>
+        </article>
+    </section>
+</body>
+</html>
